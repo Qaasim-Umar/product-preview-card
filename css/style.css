@@ -100,6 +100,7 @@ main {
   .container {
     flex-direction: column;
     background-color: hsl(0deg, 0%, 100%);
+    border-radius: 0.5rem;
   }
   .bg-img img {
     width: 100%;
@@ -113,9 +114,9 @@ main {
     display: none;
   }
   .text-container {
-    border-radius: 0 0 0.5rem 0.5rem;
     height: 25rem;
     padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
   }
   .inner-text h2 {
     font-size: 1.7rem;
